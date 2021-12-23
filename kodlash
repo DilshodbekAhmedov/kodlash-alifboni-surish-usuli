@@ -1,0 +1,14 @@
+# kodlash-alifboni-surish-usuli
+alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+ism = input("shifirlamoqchi bo'lgan so'zingizni kiriting: ")
+key = int(input("enter key: "))
+# sh_ism = "pxkdppdg"
+yangi_ism = []
+for i in ism:
+    n = alphabet.index(i)
+    yangi_ism.append(alphabet[n+key-26])
+h = "".join(yangi_ism)
+print(h)
+
+
+    

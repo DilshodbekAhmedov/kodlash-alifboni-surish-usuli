@@ -1,1 +1,0 @@
-# kodlash-alifboni-surish-usuli
